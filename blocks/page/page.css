@@ -14,18 +14,8 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-bottom: 3px solid rgb(44, 16, 44);
     opacity: 0.8;
-}
-.main_photo_opacity {
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
     border-radius: 50%;
-    opacity: 0.01;
-    
 }
 
 .main_title {
@@ -40,6 +30,7 @@
     color: white;
     font-weight: 700;
 }
+
 .main_subtitle {
     margin: 0 auto;
     font-family: "Montserrat1";
@@ -50,6 +41,7 @@
     color: white;
     font-weight: 600;
 }
+
 .main_text {
     margin: 0 auto;
     font-family: "Montserrat1";
