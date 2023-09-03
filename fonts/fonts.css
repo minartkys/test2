@@ -1,6 +1,20 @@
 @font-face {
     src: url(foglihtenno06.woff),
-    url(foglihtenno06.woff2);
+        url(foglihtenno06.woff2);
     font-family: "foglihtenno";
-    font-style:normal;
- }
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Constantine';
+    src: local('Constantine'), url('constantine.woff2') format('woff2'), url('constantine.woff') format('woff'), url('constantine.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: local('Great Vibes'), local('GreatVibes-Regular'), url('greatvibes.woff2') format('woff2'), url('greatvibes.woff') format('woff'), url('greatvibes.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
