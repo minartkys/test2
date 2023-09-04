@@ -115,6 +115,7 @@
 }
 
 .reviews_block {
+    position: relative;
     display: grid;
     margin: 0 auto;
     margin-top: 30px;
@@ -142,51 +143,71 @@
 }
 
 #photo1:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(0, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo2:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo3:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo4:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo5:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo6:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(0, 0);
+    width: 100%;
     z-index: 100;
 }
 
 #photo7:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 100;
 }
 
 #photo8:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 100;
 }
 
 #photo9:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 100;
 }
 
 #photo10:focus {
-    width: 200%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 100;
 }
