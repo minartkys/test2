@@ -4,6 +4,7 @@
     margin: 0 auto;
     height: min-content;
     max-width: 100%;
+    min-height: 200vh;
     background-color: rgb(8, 15, 44);
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -17,6 +18,11 @@
     opacity: 0.8;
     border-radius: 50%;
     box-shadow: 1px 1px 80px 10px white;
+    -webkit-box-shadow: 1px 1px 80px 10px white;
+    -moz-box-shadow: 1px 1px 80px 10px white;
+    -ms-box-shadow: 1px 1px 80px 10px white;
+    -o-box-shadow: 1px 1px 80px 10px white;
+
 }
 
 .main_title {
