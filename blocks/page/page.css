@@ -16,6 +16,7 @@
     object-fit: cover;
     opacity: 0.8;
     border-radius: 50%;
+    box-shadow: 1px 1px 80px 10px white;
 }
 
 .main_title {
@@ -42,7 +43,7 @@
     font-weight: 600;
 }
 
-.main_text {
+.main_about-me {
     margin: 0 auto;
     font-family: "Montserrat1";
     text-align: center;
@@ -53,4 +54,30 @@
     max-width: 70%;
     color: white;
     font-weight: 600;
+}
+
+.main_text {
+    display: block;
+    border: 1px solid white;
+    background-color: #802CCA;
+    width: 75%;
+    border-radius: 5%;
+    margin: 0 auto;
+    font-family: "Montserrat1";
+    text-align: center;
+    line-height: 1.45;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.main_line {
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+    border-top: 1px solid white;
+
 }
