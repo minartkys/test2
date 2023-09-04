@@ -88,7 +88,7 @@
     border-top: 1px solid white;
 }
 
-.services {
+.services_title {
     margin: 0 auto;
     margin-top: 50px;
     font-family: "Montserrat1";
@@ -99,6 +99,63 @@
     color: white;
     font-weight: 600;
     margin-top: 50px;
+}
+
+.service {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: blueviolet;
+    flex-direction: column;
+    border-radius: 10%;
+    width: 70%;
+    height: 300px;
+}
+
+.service_text {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 20px;
+    font-family: "Montserrat1";
+    text-align: center;
+    line-height: 1.45;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.service_price {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 20px;
+    font-family: "Montserrat1";
+    text-align: center;
+    line-height: 1.45;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.service_button {
+    text-decoration: none;
+    border: none;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: violet;
+    width: 40%;
+    height: 30px;
+    border-radius: 8%;
+    font-family: "Montserrat1";
+    text-align: center;
+    line-height: 1.45;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 600;
 }
 
 .reviews {
