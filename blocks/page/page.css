@@ -65,7 +65,7 @@
 .main_text {
     display: block;
     border: 1px solid white;
-    background-color: #802CCA;
+    background-color: #b0a2d3;
     width: 75%;
     max-width: 500px;
     border-radius: 5%;
@@ -145,26 +145,6 @@
     text-align: center;
     line-height: 1.45;
     font-size: 27px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 600;
-}
-
-.service_button {
-    text-decoration: none;
-    border: none;
-    margin: 30px auto;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-top: 30px;
-    background-color: blueviolet;
-    width: 40%;
-    height: 30px;
-    border-radius: 8%;
-    font-family: "Montserrat1";
-    text-align: center;
-    line-height: 1.45;
-    font-size: 17px;
     letter-spacing: 0px;
     color: white;
     font-weight: 600;
