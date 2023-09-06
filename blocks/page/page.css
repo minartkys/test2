@@ -161,6 +161,7 @@
     color: white;
     font-weight: 600;
     margin-top: 50px;
+
 }
 
 .reviews_block {
@@ -174,6 +175,7 @@
     grid-template-rows: 1fr 1fr;
     border-radius: 5%;
     column-gap: 2px;
+    max-width: 500px;
 }
 
 .reviews_block2 {
