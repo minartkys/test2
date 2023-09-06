@@ -200,70 +200,70 @@
     max-width: 500px;
 }
 
-#photo1:focus {
+#photo1:hover {
     position: absolute;
     transform: translate(0, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo2:focus {
+#photo2:hover {
     position: absolute;
     transform: translate(-50%, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo3:focus {
+#photo3:hover {
     position: absolute;
     transform: translate(-50%, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo4:focus {
+#photo4:hover {
     position: absolute;
     transform: translate(-50%, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo5:focus {
+#photo5:hover {
     position: absolute;
     transform: translate(-50%, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo6:focus {
+#photo6:hover {
     position: absolute;
     transform: translate(0, 0);
     width: 100%;
     z-index: 100;
 }
 
-#photo7:focus {
+#photo7:hover {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 100%;
     z-index: 100;
 }
 
-#photo8:focus {
+#photo8:hover {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 100%;
     z-index: 100;
 }
 
-#photo9:focus {
+#photo9:hover {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 100%;
     z-index: 100;
 }
 
-#photo10:focus {
+#photo10:hover {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 100%;
