@@ -202,22 +202,18 @@
     max-width: 500px;
 }
 
-.reviews_photo:hover {
+
+#photo1:hover {
     transform: scale(2) translate(25%, 25%);
     transition: all 0.3s linear 0.3s;
 }
 
-/* #photo1:hover {
-    transform: scale(2) translate(25%, 25%);
-    transition: all 0.3s linear 0.3s;
- */}
-
-/* #photo2:hover {
+#photo2:hover {
     transform: scale(3) translate(0, 25%);
     transition: all 0.3s linear 0.3s;
-} */
+}
 
-/* #photo3:hover {
+#photo3:hover {
     transform: scale(3) translate(-25%, 25%);
     transition: all 0.3s linear 0.3s;
 }
@@ -255,4 +251,4 @@
 #photo10:hover {
     transform: scale(3) translate(-25%, -25%);
     transition: all 0.3s linear 0.3s;
-} */
+}
