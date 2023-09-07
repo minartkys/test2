@@ -177,7 +177,7 @@
     margin: 0 auto;
     width: 50%;
     border-radius: 5%;
-    object-fit: cover;
+    object-fit: fill;
     transition: all 0.3s linear 0.3s;
 }
 
