@@ -192,6 +192,7 @@
     width: 100%;
     border-radius: 5%;
     object-fit: cover;
+    transition: all 0.3s linear 0.3s;
 }
 
 .social_links {
@@ -213,7 +214,7 @@
     transition: all 0.3s linear 0.3s;
 }
 
-#photo3:hover {
+.photo3 {
     transform: scale(3) translate(-25%, 25%);
     transition: all 0.3s linear 0.3s;
 }

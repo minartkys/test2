@@ -9,15 +9,29 @@ const photo8 = document.getElementById('photo8')
 const photo9 = document.getElementById('photo9')
 const photo10 = document.getElementById('photo10')
 
-photo1.addEventListener('mouseover', () => {
+
+document.addEventListener('click', (e) => {
+    const withinBoundaries1 = e.composedPath().includes(photo1);
+    const withinBoundaries2 = e.composedPath().includes(photo2);
+    const withinBoundaries3 = e.composedPath().includes(photo3);
+    if (!withinBoundaries1) {
+        photo1.classList.remove('photo1')
+    }
+    if (!withinBoundaries2) {
+        photo2.classList.remove('photo2')
+    }
+    if (!withinBoundaries3) {
+        photo3.classList.remove('photo3')
+    }
+})
+
+photo1.addEventListener('click', () => {
     photo1.classList.add('photo1')
 })
-photo1.addEventListener('mouseout', () => {
-    photo1.classList.remove('photo1')
-})
-photo2.addEventListener('mouseover', () => {
+
+photo2.addEventListener('click', () => {
     photo2.classList.add('photo2')
 })
-photo2.addEventListener('mouseout', () => {
-    photo2.classList.remove('photo2')
+photo3.addEventListener('click', () => {
+    photo3.classList.add('photo3')
 })
