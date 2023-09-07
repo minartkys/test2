@@ -237,7 +237,7 @@
 
 
 .photo1 {
-    transform: scale(2) translate(25%, 25%);
+    transform: scale(2) translate(26%, 25%);
     transition: all 0.3s linear 0.3s;
 }
 
