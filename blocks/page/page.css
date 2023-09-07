@@ -203,12 +203,12 @@
 }
 
 
-#photo1:hover {
+.photo1 {
     transform: scale(2) translate(25%, 25%);
     transition: all 0.3s linear 0.3s;
 }
 
-#photo2:hover {
+.photo2 {
     transform: scale(3) translate(0, 25%);
     transition: all 0.3s linear 0.3s;
 }
